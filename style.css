@@ -1,13 +1,40 @@
-* {
-  font-size: 60px;
+*{
   margin: 0;
-}
-#box1{
-  background-color: thistle;
-  margin: 30px;
-  border: 30px solid orange;
-}
-#box2{
-  background-color: tomato;
 
+}
+html{
+  /* font-size: 60px; */
+}
+.parent-container{
+  border: 5px solid red;
+  width: 1000px;
+  min-height: 100px;
+}
+.parent-container div{
+  padding: 20px 0;
+  margin: 10px 0;
+  color: blueviolet;
+  background-color: blanchedalmond;
+}
+.px{
+  font-size: 32px;
+  width: 400px;
+
+}
+.rem{
+  font-size: 2rem;
+  width: 25rem;
+}
+.em{
+  font-size: 2em;
+  width: 25em;
+}
+.percent{
+  width: 100%;
+}
+.vw{
+  width: 50vw;
+}
+.vh{
+  height: 20vh;
 }
